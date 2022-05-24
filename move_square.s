@@ -34,7 +34,7 @@ main_loop:
     je main_loop
 quit:
     call CloseWindow
-    pal.exit 13
+    pal.exit 0
 
 update:
     enter 0, 0
